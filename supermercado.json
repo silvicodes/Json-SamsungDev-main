@@ -1,0 +1,259 @@
+{
+    "supermercado uno": [
+      {
+        "id": 1,
+        "nombre": "Tesco",
+        "direccion": "Calle Almadrava, 6",
+        "geolocalizacion": [
+          "30°12'11.1 N",
+          "6°20'71.0 E"
+        ],
+        "lugar": "Madrid",
+        "horarioApertura": "Lunes a Sábado de 9 - a 21h",
+        "productos": [
+          {
+            "id": "unoTesco",
+            "nombre": "leche desnatada",
+            "seccion": "lácteos",
+            "descripcion": "leche desnatada Alpro",
+            "origen": "España",
+            "oferta": false,
+            "pvp": 1.5,
+            "formato": "1.5 litro",
+            "habitual": true,
+            "adquirido": true
+          },
+          {
+            "id": "dosTesco",
+            "nombre": "atún",
+            "seccion": "pescadería",
+            "descripcion": "atún en aceite ",
+            "origen": "Noruega",
+            "oferta": true,
+            "vigenciaOferta": [
+              "05/02/22",
+              "27/03/22"
+            ],
+            "pvp": 4.99,
+            "pvpRebajado": 3.80,
+            "formato": "400 grs.",
+            "habitual": false,
+            "adquirido": false
+          },
+          {
+            "id": "tresTesco",
+            "nombre": "Queso en loncha, ",
+            "seccion": "lácteos",
+            "descripcion": "huevos gallinas camperas",
+            "origen": "España",
+            "oferta": false,
+            "pvp": 1.99,
+            "formato": "media docena",
+            "habitual": true,
+            "adquirido": true
+          },
+          {
+            "id": "cuatroTesco",
+            "nombre": "manzanas golden",
+            "seccion": "frutería",
+            "descripcion": "manzanas golden Suecia",
+            "origen": "Suecia",
+            "oferta": true,
+            "vigenciaOferta": [
+              "05/1/22",
+              "03/06/22"
+            ],
+            "pvp": 1.69,
+            "pvpRebajado": 0.95,
+            "formato": "1 kg.",
+            "habitual": true,
+            "adquirido": false
+          },
+          {
+            "id": "cincoTesco",
+            "nombre": "queso fresco",
+            "seccion": "lácteos",
+            "descripcion": "queso fresco 0%",
+            "origen": "España",
+            "oferta": false,
+            "pvp": 3.10,
+            "formato": "370 grs.",
+            "habitual": false,
+            "adquirido": true
+          }
+        ]
+      }
+    ],
+    "supermercado dos": [
+      {
+        "id": 2,
+        "nombre": "Lidl",
+        "direccion": "Plaza de la Libertad, s/n",
+        "geolocalizacion": [
+          "23°10'0.13 S",
+          "40°22'15.35 O"
+        ],
+        "lugar": "Madrid",
+        "horarioApertura": "Lunes a Sábado de 9 - 21:30h",
+        "productos": [
+          {
+            "id": "unoLidl",
+            "nombre": "yogur natural",
+            "seccion": "lácteos",
+            "descripcion": "yogur natural sin azúcar hacendado",
+            "origen": "Portugal",
+            "oferta": true,
+            "vigenciaOferta": "3/06/22",
+            "pvp": 1.65,
+            "pvpRebajado": 1.4,
+            "formato": "pack de 6 x 125 grs.",
+            "habitual": true,
+            "adquirido": true
+          },
+          {
+            "id": "dosLidl",
+            "nombre": "pan de centeno",
+            "seccion": "panadería",
+            "descripcion": "pan de centeno formato ahorro",
+            "origen": "Alemania",
+            "oferta": false,
+            "pvp": 2.75,
+            "formato": "1 kg.",
+            "habitual": true,
+            "adquirido": true
+          },
+          {
+            "id": "tresLidl",
+            "nombre": "vinagre",
+            "seccion": "conservas",
+            "descripcion": "vinagre de modena",
+            "origen": "España",
+            "oferta": true,
+            "vigenciaOferta": [
+              "03/05/22",
+              "10/09/22"
+            ],
+            "pvp": 1.85,
+            "pvpRebajado": 1.45,
+            "formato": "1 L.",
+            "habitual": true,
+            "adquirido": false
+          },
+          {
+            "id": "cuatroLidl",
+            "nombre": "brócoli",
+            "seccion": "frutería",
+            "descripcion": "fresas frescas",
+            "origen": "Portugal",
+            "oferta": false,
+            "pvp": 0.85,
+            "formato": "1 kg.",
+            "habitual": false,
+            "adquirido": true
+          },
+          {
+            "id": "cincoLidl",
+            "nombre": "atun",
+            "seccion": "conservas",
+            "descripcion": "atun en lata",
+            "origen": "España",
+            "oferta": false,
+            "pvp": 2.90,
+            "formato": "150 grs.",
+            "habitual": true,
+            "adquirido": true
+          }
+        ]
+      }
+    ],
+    "supermercado tres": [
+      {
+        "id": 3,
+        "nombre": "mercadona",
+        "direccion": "Calle Serrer 19",
+        "geolocalizacion": [
+          "5°34'12.1 N",
+          "13°55'43.23 E"
+        ],
+        "lugar": "Sevilla",
+        "horarioApertura": "Lunes a Sábado de 9:30 - 22h",
+        "productos": [
+          {
+            "id": "unomercadona",
+            "nombre": "cerveza",
+            "seccion": "bebidas y refrescos",
+            "descripcion": "cerveza reserva pilsen Alhambra",
+            "origen": "España",
+            "oferta": true,
+            "vigenciaOferta": [
+              "1/03/21",
+              "1/04/21"
+            ],
+            "pvp": 8.55,
+            "pvpRebajado": 6.4,
+            "formato": "pack de 6 x 33 cl.",
+            "habitual": false,
+            "adquirido": false
+          },
+          {
+            "id": "dosmercadona",
+            "nombre": "calamar",
+            "seccion": "congelados",
+            "descripcion": "calamar troceado congelado",
+            "origen": "Marruecos",
+            "oferta": true,
+            "vigenciaOferta": [
+              "27/03/21",
+              "30/03/21"
+            ],
+            "pvp": 5.35,
+            "pvpRebajado": 3.95,
+            "formato": "1 kg.",
+            "habitual": true,
+            "adquirido": true
+          },
+          {
+            "id": "tresmercadona",
+            "nombre": "arroz basmati",
+            "seccion": "pastas y arroz",
+            "descripcion": "arroz basmati jazmín",
+            "origen": "China",
+            "oferta": false,
+            "pvp": 2.3,
+            "formato": "1 kg.",
+            "habitual": false,
+            "adquirido": false
+          },
+          {
+            "id": "cuatromercadona",
+            "nombre": "pimienta molida",
+            "seccion": "salsas y condimentos",
+            "descripcion": "pimienta mezcla molida molinillo",
+            "origen": "España",
+            "oferta": false,
+            "pvp": 0.65,
+            "formato": "45 grs.",
+            "habitual": true,
+            "adquirido": false
+          },
+          {
+            "id": "cincomercadona",
+            "nombre": "chocolate negro",
+            "seccion": "dulces",
+            "descripcion": "chocolate negro 85%",
+            "origen": "Ecuador",
+            "oferta": true,
+            "vigenciaOferta": [
+              "27/03/21",
+              "30/03/21"
+            ],
+            "pvp": 2.75,
+            "pvpRebajado": 2,
+            "formato": "150 grs.",
+            "habitual": true,
+            "adquirido": true
+          }
+        ]
+      }
+    ]
+  }
