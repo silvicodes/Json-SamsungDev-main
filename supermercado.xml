@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<supermercado_uno>
+	<id>1</id>
+	<nombre>Tesco</nombre>
+	<direccion>Calle Almadrava, 6</direccion>
+	<geolocalizacion>30°12'11.1 N</geolocalizacion>
+	<geolocalizacion>6°20'71.0 E</geolocalizacion>
+	<lugar>Madrid</lugar>
+	<horarioApertura>Lunes a Sábado de 9 - a 21h</horarioApertura>
+	<productos>
+		<id>unoTesco</id>
+		<nombre>leche desnatada</nombre>
+		<seccion>lácteos</seccion>
+		<descripcion>leche entera Alpro</descripcion>
+		<origen>España</origen>
+		<oferta>false</oferta>
+		<pvp>1.5</pvp>
+		<formato>1.5 litro</formato>
+		<habitual>true</habitual>
+		<adquirido>true</adquirido>
+	</productos>
+	<productos>
+		<id>dosTesco</id>
+		<nombre>atun</nombre>
+		<seccion>pescadería</seccion>
+		<descripcion>atun en aceite</descripcion>
+		<origen>Noruega</origen>
+		<oferta>true</oferta>
+		<vigenciaOferta>05/02/22</vigenciaOferta>
+		<vigenciaOferta>27/03/22</vigenciaOferta>
+		<pvp>4.99</pvp>
+		<pvpRebajado>3.80</pvpRebajado>
+		<formato>400 grs.</formato>
+		<habitual>false</habitual>
+		<adquirido>false</adquirido>
+	</productos>
+	<productos>
+		<id>tresTesco</id>
+		<nombre>Queso en loncha</nombre>
+		<seccion>lácteos</seccion>
+		<descripcion>huevos gallinas camperas</descripcion>
+		<origen>España</origen>
+		<oferta>false</oferta>
+		<pvp>1.99</pvp>
+		<formato>120gr </formato>
+		<habitual>true</habitual>
+		<adquirido>true</adquirido>
+	</productos>
+	<productos>
+		<id>cuatroTesco</id>
+		<nombre>manzanas golden</nombre>
+		<seccion>frutería</seccion>
+		<descripcion>manzanas golden Suecia</descripcion>
+		<origen>Suecia</origen>
+		<oferta>true</oferta>
+		<vigenciaOferta>05/1/22</vigenciaOferta>
+		<vigenciaOferta>03/06/22</vigenciaOferta>
+		<pvp>1.69</pvp>
+		<pvpRebajado>0.95</pvpRebajado>
+		<formato>1 kg.</formato>
+		<habitual>true</habitual>
+		<adquirido>false</adquirido>
+	</productos>
+	<productos>
+		<id>cincoTesco</id>
+		<nombre>queso fresco</nombre>
+		<seccion>lácteos</seccion>
+		<descripcion>queso freco 0%</descripcion>
+		<origen>España</origen>
+		<oferta>false</oferta>
+		<pvp>3.10</pvp>
+		<formato>370 grs.</formato>
+		<habitual>false</habitual>
+		<adquirido>true</adquirido>
+		<team> habitual </team>
+
+	</productos>
+</supermercado_uno>
